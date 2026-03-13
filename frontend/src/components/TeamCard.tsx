@@ -1,8 +1,4 @@
 
-/**
- * A Team type describing the fields we use.
- * Only the fields we need for the card are included.
- */
 export type Team = {
   tid: number;
   school: string;

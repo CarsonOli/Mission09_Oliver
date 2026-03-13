@@ -1,10 +1,6 @@
 
 import TeamCard, { type Team } from "./TeamCard";
 
-/**
- * TeamList receives an array of Team objects and
- * renders them as a list of TeamCard components.
- */
 type Props = {
   teams: Team[];
 };

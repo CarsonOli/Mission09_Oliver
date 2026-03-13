@@ -1,6 +1,4 @@
-// src/components/Header.tsx
 
-// A very small header component that introduces the site
 export default function Header() {
   return (
     <header style={{ marginBottom: "1.5rem" }}>
@@ -9,8 +7,7 @@ export default function Header() {
 
       {/* Short description */}
       <p>
-        A simple site that lists college basketball teams.  This header is its
-        own component so it can be reused or changed easily.
+        A simple site that lists college basketball teams, along with their mascot and location.
       </p>
     </header>
   );

@@ -4,7 +4,6 @@ import TeamList from "./components/TeamList";
 import teamsData from "./CollegeBasketballTeams.json";
 
 function App() {
-  // cast to any to keep things beginner-friendly and avoid TS noise
   const teams = (teamsData as any).teams as {
     tid: number;
     school: string;
